@@ -1,0 +1,100 @@
+
+/*SIDE BAR CODES*/
+.sidebar {
+    background-color: #11101d;
+    height: 100%;
+    width: 240px;
+    padding: 6px 14px;
+}
+
+.sidebar .logo_content .logo {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.logo_content .logo i {
+    font-size: 28px;
+    margin-right: 5px;
+}
+
+.logo_content .logo .logo_name {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/*BOTAO DA SIDEBAR*/
+
+.sidebar #btn {
+    position: absolute;
+    color: white;
+    right: 90%;
+    top: 6px;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    transform: translateX(300%);
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Rodapé do site - Developed by Botassini*/
+footer {
+    background-color: #11101d;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
