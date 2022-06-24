@@ -11,6 +11,35 @@
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+    <section class="work_contents">
+        <div>
+            <img class="imagens" src="imgs/IMAGEM_PADRAO.png" alt="IMG-TRABALHO">
+            <p>Trabalho IHC - Engenharia de Software</p>
+            <p>1° Semestre</p>
+        </div>
+        <div>
+            <img class="imagens" src="imgs/IMAGEM_PADRAO.png" alt="IMG-TRABALHO">
+            <p>LEGENDA</p>
+        </div>
+        <div>
+            <img class="imagens" src="imgs/IMAGEM_PADRAO.png" alt="IMG-TRABALHO">
+            <p>LEGENDA</p>
+        </div>
+        <div>
+            <img class="imagens" src="imgs/IMAGEM_PADRAO.png" alt="IMG-TRABALHO">
+            <p>LEGENDA</p>
+        </div>
+        <div>
+            <img class="imagens" src="imgs/IMAGEM_PADRAO.png" alt="IMG-TRABALHO">
+            <p>LEGENDA</p>
+        </div>
+        <div>
+            <img class="imagens" src="imgs/IMAGEM_PADRAO.png" alt="IMG-TRABALHO">
+            <p>LEGENDA</p>
+        </div>
+        
+        
+    </section>
     <header class="sidebar">
         <div class="logo_content">
             <div class="logo">
@@ -26,28 +55,28 @@
             </li>
 
             <li>
-                <a href="#">
+                <a href="registro.html">
                     <i class='bx bx-line-chart' ></i>
                     <span class="links_name">Dashboard</span>
                 </a>
             </li>
 
             <li>
-                <a href="#">
+                <a href="registro.html">
                     <i class='bx bx-user' ></i>
                     <span class="links_name">Perfil</span>
                 </a>
             </li>
 
             <li>
-                <a href="#">
+                <a href="registro.html">
                     <i class='bx bx-spreadsheet' ></i>
                     <span class="links_name">Trabalhos</span>
                 </a>
             </li>
 
             <li>
-                <a href="#">
+                <a href="index.html">
                     <i class='bx bx-cart' ></i>
                     <span class="links_name">Loja</span>
                 </a>
@@ -58,7 +87,7 @@
                         <img src="imgs/profile.jpg" alt="Profile Image">
                         <div class="name_job">
                             <div class="name">Roberto Michelan</div>
-                            <div class="job">Web Interface</div>
+                            <div class="job">Web Developer</div>
                         </div>
                     </div>
                     <i class='bx bx-log-out' id="log_out"></i>
@@ -66,10 +95,20 @@
             </div>
         </ul>
     </header>
+   <script>
+    /*CONECTANDO OS BOTOES A VARIAVEIS*/
+    let btn = document.querySelector("#btn");
+    let sidebar = document.querySelector(".sidebar");
+    let searchBtn = document.querySelector(".bx-search");
 
-
-    <footer>
-        <p>Developed by Botassini</p>
-    </footer>
+    btn.onclick = function() {
+        sidebar.classList.toggle("active")
+    }
+    
+    searchBtn.onclick = function() {
+        sidebar.classList.toggle("active")
+    }
+   </script>
+    
 </body>
 </html>

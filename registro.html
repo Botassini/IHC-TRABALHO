@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Login</title>
-    <link rel="stylesheet" href="css/login_style.css">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/registro_style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
@@ -13,10 +13,10 @@
     <div class="container">
         <div class="content first-content">
             <div class="first-column">
-                <h2 class="title title-primary">Seja bem-vindo!</h2>
+                <h2 class="title title-primary">Bem-Vindo de volta!</h2>
     
-                <p class="description description-primary">Sua primeira vez aqui?</p>
-                <a href="registro.html"><button id="signin" class="btn btn-primary">Registre-se</button></a>
+                <p class="description description-primary">Entre com suas informações</p>
+                <a href="Login.html"><button id="signin" class="btn btn-primary">login</button></a>
             </div>    
             <div class="second-column">
                 <h2 class="title title-second">Criar Conta</h2>
@@ -42,6 +42,11 @@
                 <p class="description description-second">Ou use seu email para se registrar: </p>
                 <form class="form">
                     <label class="label-input" for="">
+                        <i class="far fa-user icon-modify"></i>
+                        <input type="text" placeholder="Nome">
+                    </label>
+                    
+                    <label class="label-input" for="">
                         <i class="far fa-envelope icon-modify"></i>
                         <input type="email" placeholder="E-mail">
                     </label>
@@ -50,8 +55,7 @@
                         <i class="fas fa-lock icon-modify"></i>
                         <input type="password" placeholder="Senha">
                     </label>
-                
-                    <a class="btn btn-second" href="index.html">Logar-se </a>   
+                    <a href="Login.html"><button class="btn btn-second">Registrar</button></a>        
                 </form>
             </div><!-- second column -->
         </div><!-- first content -->
@@ -97,7 +101,7 @@
                     </label>
                 
                     <a class="password" href="#">forgot your password?</a>
-                    <button class="btn btn-second">sign in</button>
+                    <a href="Login.html"><button class="btn btn-second">sign in</button></a>
                 </form>
             </div><!-- second column -->
         </div><!-- second-content -->
